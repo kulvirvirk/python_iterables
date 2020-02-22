@@ -2,7 +2,8 @@
 # 1. using a for loop iterate over a string  
 # 2. using a for loop iterate over a list    
 # 3. using a for loop iterate over a dictionary
-# 3a. useing a for loop wiht dictionary, only print keys (hint: use keys() method)
+# 3a. using a for loop iterate over dictionary, only print keys (hint: use keys() method)
+# 3b. using a for iterate over dictionary, only print values (hint: use values() method)
 # ========================================== 
 
 # 1. using a for loop iterate over a string
@@ -30,5 +31,10 @@ print('--------------******--------------\n')
 # 3a. useing a for loop wiht dictionary, only print keys (hint: use keys() method)
 # this will provide the similar result to above example 3.
 for dictionary_value in some_dictionary.keys():
+  print(dictionary_value)
+print('--------------******--------------\n')
+
+# 3b. using a for iterate over dictionary, only print values (hint: use values() method)
+for dictionary_value in some_dictionary.values():
   print(dictionary_value)
 print('--------------******--------------\n')
